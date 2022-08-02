@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+
+   
+  </head>
+  <link rel="stylesheet" href="style.css">
+
+  <body>
+    
+<body>
+    <div class="wrapper">
+    <div class="ribbon">
+      </br>
+      <p><span class="icon text-dark"><i class="fa-solid fa-envelope "> </i> : someone123@gmail.com <i
+            class="fa-solid fa-phone"></i> : +977 9812345678 &nbsp; &nbsp; &nbsp;<a href="" class="text-dark"
+            data-toggle="modal" data-target="#exampleModal">Login</a>/<a href="" class="text-dark" data-toggle="modal"
+            data-target="#signupModal">SignUp</a></span></p>
+  
+    </div>
+  
+  
+  
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+        <div class="logo"><a href="" class="href"> <i class="fa-brands fa-facebook-f fa-1x"></i></a> </div>
+        <div class="logo"><a href="" class="href"></a><i class="fa-brands fa-twitter fa-1x"></i></a></div>
+        <div class="logo"><a href="" class="href"><i class="fa-brands fa-instagram-square fa-1x"></i></a></div>
+    
+    
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="destination.html">Destination</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tour Packages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="package.html">Details</a></li>
+                <li><a class="dropdown-item" href="#">single package</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <div class="bookbutton"> <a href="" class="booknow" class="btn btn-primary btn-sm" data-toggle="modal"
+                data-target="#bookingModal">Online Booking</a></div>
+    
+          </form>
+    
+      </nav>
+     
+
+
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+          <div class="modal-content ">
+            <div class="modal-header">
+    
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form my-4">
+                <form>
+                  <div class="form-group ">
+                    <div class="login">
+                      <h3 class="text-center">Login</h3>
+                    </div>
+                    <label for="exampleInputPassword1">Username</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1">
+    
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+    
+                </form>
+    
+              </div>
+            </div>
+            <div class="modal-footer">
+    
+              <button type="button" class="btn btn-dark ">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-------signup modal-->
+      <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+    
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form my-4">
+                <form>
+                  <div class="form-group ">
+                    <div class="login">
+                      <h3 class="text-center"> Sign Up</h3>
+                    </div>
+                    <label for="exampleInputPassword1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputPassword1">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                      else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Re-type Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+    
+                </form>
+              </div>
+            </div>
+            <div class="modal-footer">
+    
+              <button type="button" class="btn btn-dark">Sumit</button>
+              <a href="index.html" class="href"> <button type="button" class="btn btn-dark">Back</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---------booking modal-->
+      <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+    
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+    
+                    <div class="row">
+                      <div class="col-md-12" style="padding:20px;">
+                        <form id="contact-form">
+                          <input type="hidden" name="form_type" value="1">
+                          <input type="hidden" name="subscribe_newsletter" value="1">
+                          <input type="hidden" name="language" value="en">
+    
+                          <div class="row">
+                            <div class="col-md-6 col-sm-6 ">
+                              <div class="form-group edit-field-form">
+                                <small>
+                                  <!-- <div class="error text-muted" id="str-error-name"></div>  -->
+                                </small>
+                                <label for="inputName" class="label-form" id="has-error-name">Name: <span
+                                    style="color:#fd0101;">*</span></label>
+                                <input name="name" class="form-control" id="inputName" placeholder="" type="text">
+                              </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                              <div class="form-group edit-field-form">
+                                <small>
+                                  <!-- <div class="error text-muted" id="str-error-email"></div> -->
+                                </small>
+                                <label for="inputLastName" class="label-form" id="has-error-lastname">Last name: <span
+                                    style="color:#fd0101;">*</span></label>
+                                <input name="lastname" class="form-control" id="inputLastName" placeholder=""
+                                  autocomplete="off" type="text">
+                              </div>
+                            </div>
+                          </div>
+    
+                          <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                              <div class="form-group edit-field-form">
+                                <small>
+                                  <!-- spacer<div class="error text-muted" id="str-error-phone"></div> -->
+                                </small>
+                                <label for="inputPhone" class="label-form" id="has-error-phone">Phone: <span
+                                    style="color:#fd0101;">*</span></label>
+                                <input name="phone" class="form-control" id="inputPhone" placeholder="" type="text">
+                              </div>
+                            </div>
+    
+                            <div class="col-md-6 col-sm-6">
+                              <div class="form-group edit-field-form">
+                                <small>
+                                  <!-- <div class="error text-muted" id="str-error-email"></div> -->
+                                </small>
+                                <label for="inputEmail" class="label-form" id="has-error-email">Email: <span
+                                    style="color:#fd0101;">*</span></label>
+                                <input name="email" class="form-control" id="inputEmail" placeholder="" autocomplete="off"
+                                  type="text">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                              <div class="form-group edit-field-form">
+                                <small>
+                                  <!-- spacer<div class="error text-muted" id="str-error-phone"></div> -->
+                                </small>
+                                <label for="inputPhone" class="label-form" id="has-error-phone">Address: <span
+                                    style="color:#fd0101;">*</span></label>
+                                <input name="phone" class="form-control" id="inputPhone" placeholder="" type="text">
+                              </div>
+                            </div>
+    
+                            <div class="col-md-6 col-sm-6">
+                              <div class="form-group edit-field-form">
+                                <small>
+                                  <!-- <div class="error text-muted" id="str-error-email"></div> -->
+                                </small>
+                                <label for="inputEmail" class="label-form" id="has-error-email">Packages Name: <span
+                                    style="color:#fd0101;">*</span></label>
+                                <input name="email" class="form-control" id="inputEmail" placeholder="" autocomplete="off"
+                                  type="text">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+    
+                              <div class="row">
+                                <div class="col-md-8">
+                                  <label for="inputPaxQuantity">No. of adults:</label>
+                                  <!-- <input type="text" name="pax_quantity" class="form-control" id="inputPaxQuantity" placeholder="Quantity"> -->
+    
+                                  <select name="pax_quantity" class="form-control minimal" id="inputPaxQuantity">
+                                    <option value="1" selected="">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                              <div class="row">
+                                <div class="col-md-8">
+                                  <label for="inputPaxQuantityChildren">No. of children:</label>
+                                  <!--<input type="text" name="pax_quantity_children" class="form-control" id="inputPaxQuantityChildren" placeholder="Quantity">-->
+                                  <select name="pax_quantity_children" class="form-control minimal"
+                                    id="inputPaxQuantityChildren">
+                                    <option value="0" selected="">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                  </select>
+                                  <br>
+                                  <div id="outputAreaForAgesCHD"></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+    
+    
+    
+                          <div style="clear:both; height: 20px">
+                            <!-- spacer -->
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="form-group edit-field-form">
+                                <label for="inputMessage" class="label-form" id="has-error-message">Message: <span
+                                    style="color:#fd0101;">*</span> <span style="color:#c2c0c0;">(Please give us as much
+                                    detail as possible)</span></label>
+                                <textarea class="form-control" name="message" id="inputMessage" rows="4"></textarea>
+                              </div>
+    
+                              <div style="clear:both; height: 20px">
+                                <!-- spacer -->
+                              </div>
+    
+    
+                            </div>
+    
+                          </div>
+    
+                          <div class="row">
+                            <div class="col-md-12" style="margin-top:20px;">
+    
+                              <div class="alert alert-danger" id="error-msg" style="display:none;" role="alert">Ooops!.
+                                please verify all fields marked with red text</div>
+                              <div id="controls"><button type="submit" class="btn btn-hg" id="contact-submit">Send</button>
+                              </div>
+    
+                              <div id="sending-message" class="text-info" style="display:none;padding-left:4px;">
+                                <h4>
+    
+                                </h4>
+                              </div>
+    
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="package">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="package-box">
+             
+                
+               
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<div class="container">
+    <div class="packagerect">
+       <h2 class="tour ">TOUR PACKAGES</h2><hr>
+     <div class="pkgtour">  
+        <div class="container">
+       <div class="row featurette">
+        <div class="col-md-7">
+          <h4 class="featurette-heading ">INTERNATIONAL TOUR</h4>
+          <p class="font">Some great placeholder content for the first featurette here. Imagine some exciting prose here.
+            ome great placeholder content for the first featurette here. Imagine some exciting prose here.
+            ome great placeholder content for the first featurette here. Imagine some exciting prose here.
+            ome great placeholder content for the first featurette here. Imagine some exciting prose here.
+          </br> <a href="singletour.html" class="href">International Tour  <i class="fa fa-angle-right"></i></a>
+          </p>
+        </div>
+        <div class="col-md-5">
+        <img src="picture/package.jpg" alt="" class="mypkg img-fluid" height="400" width="400">
+  
+        </div>
+      </div></br>
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h4 class="featurette-heading ">DOMESTIC TOUR</h4>
+          <p class="font">Some great placeholder content for the first featurette here. Imagine some exciting prose here.
+            ome great placeholder content for the first featurette here. Imagine some exciting prose here.
+            ome great placeholder content for the first featurette here. Imagine some exciting prose here.
+            ome great placeholder content for the first featurette here. Imagine some exciting prose here.
+          </br> <a href="singletour.html" class="href">Domestic Tour  <i class="fa fa-angle-right"></i></a>
+          </p>
+        </div>
+        <div class="col-md-5">
+        <img src="picture/mt.jpg" alt="" class="mypkg2 img-fluid" height="400" width="400">
+  
+        </div>
+      </div></br>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h4 class="featurette-heading ">ADVENTURES TOUR</h4>
+          <p class="font">Some great placeholder content for the first featurette here. Imagine some exciting prose here.
+            ome great placeholder content for the first featurette here. Imagine some exciting prose here.
+            ome great placeholder content for the first featurette here. Imagine some exciting prose here.
+            ome great placeholder content for the first featurette here. Imagine some exciting prose here.
+          </br> <a href="singletour.html" class="href">Aventure Tour  <i class="fa fa-angle-right"></i></a>
+          </p>
+        </div>
+        <div class="col-md-5">
+        <img src="picture/rock.jpg" alt="" class="mypkg3 img-fluid" height="400" width="400">
+  
+        </div>
+      </div></br>
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h4 class="featurette-heading ">SPORTS TOUR</h4>
+          <p class="font">Some great placeholder content for the first featurette here. Imagine some exciting prose here.
+            ome great placeholder content for the first featurette here. Imagine some exciting prose here.
+            ome great placeholder content for the first featurette here. Imagine some exciting prose here.
+            ome great placeholder content for the first featurette here. Imagine some exciting prose here.
+          </br> <a href="singletour.html" class="href">Sports Tour  <i class="fa fa-angle-right"></i></a>
+          </p>
+        </div>
+        <div class="col-md-5">
+        <img src="picture/sport.jpg" alt="" class="mypkg4 img-fluid" height="400" width="400">
+  
+        </div>
+      </div></br>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h4 class="featurette-heading ">BUSINESS TOUR</h4>
+          <p class="font">Some great placeholder content for the first featurette here. Imagine some exciting prose here.
+            ome great placeholder content for the first featurette here. Imagine some exciting prose here.
+            ome great placeholder content for the first featurette here. Imagine some exciting prose here.
+            ome great placeholder content for the first featurette here. Imagine some exciting prose here.
+          </br> <a href="singletour.html" class="href">Business Tour  <i class="fa fa-angle-right"></i></a>
+          </p>
+        </div>
+        <div class="col-md-5">
+        <img src="picture/2.jpg" alt="" class="mypkg5 img-fluid" height="400" width="400">
+  
+        </div>
+      </div></br>
+    </div>
+</div>
+</div>
+</div>
+<div class="tourpack">
+  <img src="picture/trvler.jpg" alt="" class=" actor img-fluid" height="400px" width="100%">
+    <div class="container">
+     
+      <div class="row">
+        <div class="col-md-12">
+          <div class="tour-pack">
+            <h1 class="okay12"> LIFE IS SHORT AND WORLD IS WIDE.</br><span class="when">IF NOT NOW,WHEN?</span></h1>
+
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="footerpack">
+        <footer class="bg">
+          <div class="container py-5">
+            <div class="row py-4">
+              <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
+                <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt.</p>
+                <ul class="list-inline mt-4">
+                  <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
+                        class="fa fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
+                        class="fa fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
+                        class="fa fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i
+                        class="fa fa-pinterest"></i></a></li>
+                  <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fa fa-vimeo"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4 text-white">Shop</h6>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2"><a href="#" class="text-muted">For Women</a></li>
+                  <li class="mb-2"><a href="#" class="text-muted">For Men</a></li>
+                  <li class="mb-2"><a href="#" class="text-muted">Stores</a></li>
+                  <li class="mb-2"><a href="#" class="text-muted">Our Blog</a></li>
+                </ul>
+              </div>
+              <div class=" hi col-lg-2 col-md-6 mb-4 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4 text-white">Company</h6>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+                  <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
+                  <li class="mb-2"><a href="#" class="text-muted">Wishlist</a></li>
+                  <li class="mb-2"><a href="#" class="text-muted">Our Products</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4 text-white news">Newsletter</h6>
+                <p class="news text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.
+                </p>
+                <div class="p-1 rounded1 border">
+                  <div class="input-group">
+                    <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1"
+                      class="form-control border-0 shadow-0">
+                    <div class="input-group-append">
+                      <button id="button-addon1" type="submit" class="btn btn-link"><i
+                          class="fa fa-paper-plane"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Copyrights -->
+        
+        </footer>
+        <div class="natpackage">
+          <p class="text-white-center">bootstrap</p>
+        </div>
+      </div>
+ 
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
